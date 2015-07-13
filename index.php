@@ -14,6 +14,10 @@
 	*/
 	
 	class Miscelanea{
+		Public function raiz( ){
+ 			$raiz = sqrt($numero);
+ 			echo "A raiz de: " . $numero . " é: " . $raiz;
+		}
 	
 	    /*
 		* Método para encontra o próximo número perfeito
