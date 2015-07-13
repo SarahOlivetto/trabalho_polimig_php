@@ -14,6 +14,7 @@
 	*/
 	
 	class Miscelanea{
+		//raiz do numero
 		Public function raiz($numero){
  			$raiz = sqrt($numero);
  			echo "A raiz de: " . $numero . " é: " . $raiz;
