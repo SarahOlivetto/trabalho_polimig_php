@@ -14,11 +14,13 @@
 	*/
 	
 	class Miscelanea{
-		//raiz do numero
+		//raiz do numero feito pro pedro e samael
 		Public function raiz($numero){
  			$raiz = sqrt($numero);
  			echo "A raiz de: " . $numero . " é: " . $raiz;
 		}
+		
+		
 	
 	    /*
 		* Método para encontra o próximo número perfeito
