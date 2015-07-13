@@ -14,6 +14,16 @@
 	*/
 	
 	class Miscelanea{
+		
+		
+		//Método para calcular a potência.
+		//Sarah e Thiago
+		
+		Public function potencia($numero,$expoente){
+			$pot = pow($numero,$expoente);
+			echo "O resultado do " . $numero . " elevado ao expoente " . $expoente . " é " . $pot;
+		}
+		
 		//raiz do numero feito pro pedro e samael
 		Public function raiz($numero){
  			$raiz = sqrt($numero);
@@ -26,6 +36,7 @@
 		* Método para encontra o próximo número perfeito
 		* @param $numero
 		*/
+		//Gerson e Gabrielle
 		public function proximoPerfeito ($numero){
 			
 			$total = 0;
